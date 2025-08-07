@@ -3,7 +3,7 @@ function checkEndString(string, end) {
 
   return string.endsWith(end);
 }
-console.log(checkEndString("Hello World", "World")); // true
-console.log(checkEndString("Hello World", "world")); // false
-console.log(checkEndString("Hello World", "Hello")); // false
-console.log(checkEndString("Hello World", " ")); // false
+console.log(checkEndString("Hello World", "World")); 
+console.log(checkEndString("Hello World", "world")); 
+console.log(checkEndString("Hello World", "Hello")); 
+console.log(checkEndString("Hello World", " ")); 
