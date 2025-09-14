@@ -11,3 +11,4 @@ export const products: IProduct[] = [
   { id: 4, name: "Tai nghe Sony WH-1000XM4", price: 7000000 },
   { id: 5, name: "Apple Watch Series 8", price: 12000000 },
 ];
+
