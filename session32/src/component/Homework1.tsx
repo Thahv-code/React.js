@@ -2,7 +2,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-const Hw1 = () => {
+const Homework1 = () => {
   
   const users = useSelector((state: any) => state);
 
@@ -39,4 +39,4 @@ const Hw1 = () => {
   );
 };
 
-export default Hw1;
+export default Homework1;

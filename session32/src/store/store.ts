@@ -1,16 +1,14 @@
 import { createStore, combineReducers } from "redux";
-import hw2Reducer from "./hw2Reducer";
-import hw3Reducer from "./hw3Reducer";
-import hw4Reducer from "./hw4Reducer";
-import hw5Reducer from "./hw5Reducer";
-import hw6Reducer from "./hw6Reducer";
+import homework4Reducer from "./homework4Reducer";
+import homework2Reducer from "./homework2Reducer";
+import homework3Reducer from "./homework3Reducer";
+import homework5Reducer from "./homework5Reducer";
 
 const rootReducer = combineReducers({
-  hw2: hw2Reducer,
-  hw3: hw3Reducer,
-  hw4: hw4Reducer,
-  hw5: hw5Reducer,
-  hw6: hw6Reducer,
+  home2: homework2Reducer,
+  home3: homework3Reducer,
+  home4: homework4Reducer,
+  home5: homework5Reducer,
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

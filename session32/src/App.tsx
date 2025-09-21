@@ -1,14 +1,13 @@
 import React from 'react'
-import Hw1 from './component/Hw1'
-import Hw2 from './component/Hw2'
-import Hw3 from './component/Hw3'
-import Hw4 from './component/Hw4'
-import Hw5 from './component/Hw5'
-import Hw6 from './component/Hw6'
+import Hw1 from './component/Homework1'
+import Hw2 from './component/Homework2'
+import Hw3 from './component/Homework3'
+import Hw4 from './component/Homework4'
+import Hw5 from './component/Homework5'
 
 function App() {
   return (
-    <div><Hw6/></div>
+    <div><Hw1></Hw1></div>
   )
 }
 

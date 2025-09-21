@@ -1,9 +1,9 @@
 const initialState = [
   {
     id: 1,
-    userName: "Nguyễn Quang Huy",
+    userName: "Nguyễn Vũ Thàng",
     gender: "male",
-    dateBirth: "2006-09-10",
+    dateBirth: "2006-06-21",
     address: "Hà Nội",
   },
   {

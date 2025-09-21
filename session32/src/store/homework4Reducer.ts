@@ -1,6 +1,6 @@
 const initialState: number[] = [];
 
-const hw4Reducer = (state = initialState, action: any) => {
+const hơmeork4Reducer = (state = initialState, action: any) => {
   switch (action.type) {
     case "ADD_RANDOM":
       return [...state, Math.floor(Math.random() * 100)];
@@ -9,4 +9,4 @@ const hw4Reducer = (state = initialState, action: any) => {
   }
 };
 
-export default hw4Reducer;
+export default hơmeork4Reducer;

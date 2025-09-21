@@ -23,11 +23,11 @@ const initialState: User[] = [
   },
 ];
 
-const hw2Reducer = (state = initialState, action: any) => {
+const homewrok2Reducer = (state = initialState, action: any) => {
   switch (action.type) {
     default:
       return state;
   }
 };
 
-export default hw2Reducer;
+export default homewrok2Reducer;

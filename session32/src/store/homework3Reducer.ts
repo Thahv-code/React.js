@@ -1,6 +1,6 @@
 const initialState = { counter: 0 };
 
-const hw3Reducer = (state = initialState, action: any) => {
+const homework3Reducer = (state = initialState, action: any) => {
   switch (action.type) {
     case "INCREMENT":
       return { counter: state.counter + 1 };
@@ -11,4 +11,4 @@ const hw3Reducer = (state = initialState, action: any) => {
   }
 };
 
-export default hw3Reducer;
+export default homework3Reducer;

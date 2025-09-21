@@ -1,6 +1,6 @@
 const initialState = { company: "Rikkei Academy" };
 
-const hw5Reducer = (state = initialState, action: any) => {
+const homework5Reducer = (state = initialState, action: any) => {
   switch (action.type) {
     case "CHANGE_COMPANY":
       return { company: "RikkeiSoft" };
@@ -9,4 +9,4 @@ const hw5Reducer = (state = initialState, action: any) => {
   }
 };
 
-export default hw5Reducer;
+export default homework5Reducer;
