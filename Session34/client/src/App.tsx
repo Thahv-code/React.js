@@ -8,10 +8,10 @@ export default function App() {
       <div className="page-header">
         <h1>Shopping Cart</h1>
       </div>
-      {/* Danh sach san pham */}
+      {}
       <div className="row">
         <ProductList></ProductList>
-        {/* Gio hang */}
+        {}
         <ShoppingCart></ShoppingCart>
       </div>
     </div>
