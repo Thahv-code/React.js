@@ -21,7 +21,7 @@ function Cart() {
               </tr>
             </thead>
             <tbody id="my-cart-body">
-              {/* Replace with CartItem or define/import BodyRightItem */}
+              {}
               <CartItem />
             </tbody>
             <tfoot id="my-cart-footer">
